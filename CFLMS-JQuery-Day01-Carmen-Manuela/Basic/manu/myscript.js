@@ -25,15 +25,16 @@
 
 // the last element in any section which is a p tag
 //$("p:last-of-type").css("background-color","yellow");
+//$("p:last").css("background-color","yellow");
 
 // the first paragraph on the page
-// $("header:first").css("background-color","yellow");
+//$("p:first").css("background-color","yellow");
 
 // all p elements which have a link
 //$("p>a").css("background-color","yellow");
 
 // the second li within nested ul element
-//$("ul>li:nth-of-type(2)").css("background-color","yellow");
+//$("ul>li>ul>li:nth-child(2)").css("background-color","yellow");
 
 // every second and third p element
 $("p:nth-of-type(2),p:nth-of-type(3)").css("background-color","yellow");
